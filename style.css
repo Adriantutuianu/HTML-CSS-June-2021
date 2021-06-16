@@ -12,7 +12,7 @@
 }
 
 .subscribe {
-  h1 {
+  h3 {
     margin-left: auto;
     margin-top: 50px;
     text-align: center;
@@ -21,7 +21,7 @@
     color: #ffffff;
   }
 
-  h2 {
+  h4 {
     margin-left: auto;
     margin-top: 50px;
     text-align: center;
@@ -52,14 +52,12 @@
 
   .formButton {
     float: right;
-    background-color: #ffffff;
     display: inline-block;
-    color: #2ecc71;
+    color: white;
     font-size: 28px;
-    font-weight: 500;
-    padding: 6px 24px;
-    margin-top: 15px;
-    margin-right: 60px;
+    font-weight: 300;
+    padding: 1px 20px;
+    margin-right: 20px;
     text-decoration: none;
   }
 
