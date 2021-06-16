@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+.body {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 /* Style social media buttons  */
 .fa {
   padding: 20px;
