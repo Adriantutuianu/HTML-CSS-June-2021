@@ -16,14 +16,22 @@ body {
   background-image: url("assets/main.png");
   background-size: cover;
   min-height: 200px;
+  position: relative;
 }
 
 .photo1 .first-line {
   font-family: "Libre Baskerville", serif;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
 }
 
 .photo1 .second-line {
+  letter-spacing: 5px;
   text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .photo2 {
@@ -37,6 +45,7 @@ body {
 }
 
 .photo2 .second-line {
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
@@ -51,6 +60,7 @@ body {
 }
 
 .photo3 .second-line {
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
@@ -65,5 +75,18 @@ body {
 }
 
 .photo4 .second-line {
+  letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.welcome {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  color: white;
+}
+
+.photo1 {
+  grid-column: 1 / -1;
+  height: 500px;
 }
