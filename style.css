@@ -22,16 +22,16 @@ body {
 .photo1 .first-line {
   font-family: "Libre Baskerville", serif;
   position: absolute;
-  bottom: 20px;
-  left: 0;
+  bottom: 30px;
+  left: 10px;
 }
 
 .photo1 .second-line {
   letter-spacing: 5px;
   text-transform: uppercase;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 10px;
 }
 
 .photo2 {
