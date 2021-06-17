@@ -22,6 +22,10 @@ body {
   font-family: "Libre Baskerville", serif;
 }
 
+.photo1 .second-line {
+  text-transform: uppercase;
+}
+
 .photo2 {
   background-image: url("assets/1.png");
   background-size: cover;
@@ -30,4 +34,36 @@ body {
 
 .photo2 .first-line {
   font-family: "Libre Baskerville", serif;
+}
+
+.photo2 .second-line {
+  text-transform: uppercase;
+}
+
+.photo3 {
+  background-image: url("assets/2.png");
+  background-size: cover;
+  min-height: 200px;
+}
+
+.photo3 .first-line {
+  font-family: "Libre Baskerville", serif;
+}
+
+.photo3 .second-line {
+  text-transform: uppercase;
+}
+
+.photo4 {
+  background-image: url("assets/3.png");
+  background-size: cover;
+  min-height: 200px;
+}
+
+.photo4 .first-line {
+  font-family: "Libre Baskerville", serif;
+}
+
+.photo4 .second-line {
+  text-transform: uppercase;
 }
