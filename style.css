@@ -21,6 +21,13 @@ body {
 .photo1 .first-line {
   font-family: "Libre Baskerville", serif;
 }
+
 .photo2 {
   background-image: url("assets/1.png");
+  background-size: cover;
+  min-height: 200px;
+}
+
+.photo2 .first-line {
+  font-family: "Libre Baskerville", serif;
 }
