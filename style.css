@@ -19,8 +19,13 @@ body {
   color: white;
   text-transform: uppercase;
   height: 30px;
-  text-align: center;
+  align-items: center;
   font-size: 13px;
+}
+
+.bottom-header {
+  background-image: url("assets/wedgwood-logo.png");
+  display: flex;
 }
 
 .photo1 {
