@@ -15,11 +15,13 @@ body {
 .top-header {
   display: flex;
   justify-content: space-between;
-  background-color:dodgerblue;
- color: white;
-
-  
-
+  background-color: dodgerblue;
+  color: white;
+  text-transform: uppercase;
+  height: 30px;
+  text-align: center;
+  font-size: 13px;
+}
 
 .photo1 {
   background-image: url("assets/main.png");
@@ -99,7 +101,6 @@ body {
   grid-column: 1 / -1;
   height: 500px;
 }
-
 
 .footer {
   background-color: dodgerblue;
