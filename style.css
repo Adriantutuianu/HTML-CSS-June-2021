@@ -15,7 +15,11 @@ body {
 .top-header {
   display: flex;
   justify-content: space-between;
-}
+  background-color:dodgerblue;
+ color: white;
+
+  
+
 
 .photo1 {
   background-image: url("assets/main.png");
@@ -94,4 +98,10 @@ body {
 .photo1 {
   grid-column: 1 / -1;
   height: 500px;
+}
+
+
+.footer {
+  background-color: dodgerblue;
+  display: grid;
 }
