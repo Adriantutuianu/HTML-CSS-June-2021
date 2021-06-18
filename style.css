@@ -12,6 +12,11 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .photo1 {
   background-image: url("assets/main.png");
   background-size: cover;
