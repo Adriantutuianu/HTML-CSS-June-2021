@@ -112,6 +112,11 @@ body {
   flex-wrap: wrap;
 }
 
+h1 {
+  font-family: "Libre Baskerville", serif;
+  color: dodgerblue;
+}
+
 .footer {
   background-color: dodgerblue;
   display: grid;
