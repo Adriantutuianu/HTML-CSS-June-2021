@@ -107,6 +107,11 @@ body {
   height: 500px;
 }
 
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer {
   background-color: dodgerblue;
   display: grid;
