@@ -41,8 +41,15 @@ body {
 }
 
 .bottom-header {
-  background-image: url("assets/wedgwood-logo.png");
   display: flex;
+  height: 80px;
+}
+
+.bottom-header .logo {
+  background-image: url("assets/wedgwood-logo.png");
+  background-size: cover;
+  width: 200px;
+  height: 38px;
 }
 
 .photo1 {
