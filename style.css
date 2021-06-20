@@ -173,6 +173,31 @@ h1 {
   background-image: url(assets/8.png);
 }
 
+.menu .category .item1 h3,
+.menu .category .item2 h3,
+.menu .category .item3 h3,
+.menu .category .item4 h3 {
+  text-transform: uppercase;
+  color: #99c8f2;
+  letter-spacing: 3px;
+}
+
+.menu .category .item1 p,
+.menu .category .item2 p,
+.menu .category .item3 p,
+.menu .category .item4 p {
+  font-family: "Libre Baskerville", serif;
+}
+
+.menu .category .item1 a,
+.menu .category .item2 a,
+.menu .category .item3 a,
+.menu .category .item4 a {
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase;
+  color: #99c8f2;
+}
+
 .footer {
   background-color: #99c8f2;
   display: grid;
