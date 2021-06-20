@@ -129,13 +129,24 @@ body {
   text-transform: uppercase;
 }
 
-.menu-list {
-  display: flex;
+.menu {
 }
 
 h1 {
   font-family: "Libre Baskerville", serif;
   color: #99c8f2;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.menu .menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 10px;
 }
 
 .footer {
