@@ -56,84 +56,6 @@ body {
   height: 38px;
 }
 
-.photo1 {
-  background-image: url("assets/main.png");
-  background-size: cover;
-  min-height: 200px;
-  position: relative;
-}
-
-.photo1 .first-line {
-  font-family: "Libre Baskerville", serif;
-  position: absolute;
-  bottom: 30px;
-  left: 10px;
-}
-
-.photo1 .second-line {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-
-.photo2,
-.photo3,
-.photo4 {
-  background-image: url("assets/1.png");
-  background-size: cover;
-  min-height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.photo2 .first-line {
-  font-family: "Libre Baskerville", serif;
-}
-
-.photo2 .second-line {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-.photo2 .discover {
-  margin-top: 80px;
-  text-transform: uppercase;
-}
-
-.photo3 {
-  background-image: url("assets/2.png");
-  background-size: cover;
-  min-height: 200px;
-}
-
-.photo3 .first-line {
-  font-family: "Libre Baskerville", serif;
-}
-
-.photo3 .second-line {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-.photo4 {
-  background-image: url("assets/3.png");
-  background-size: cover;
-  min-height: 200px;
-}
-
-.photo4 .first-line {
-  font-family: "Libre Baskerville", serif;
-}
-
-.photo4 .second-line {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
 .welcome {
   display: grid;
   grid-gap: 20px;
@@ -142,14 +64,73 @@ body {
   color: white;
 }
 
-.photo1 {
+.welcome .photo1 {
+  background-image: url("assets/main.png");
+  background-size: cover;
+  min-height: 200px;
+  position: relative;
   grid-column: 1 / -1;
   height: 500px;
+}
+.welcome .photo1 .first-line {
+  font-family: "Libre Baskerville", serif;
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+
+.welcome .photo1 .second-line {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.welcome .photo2 {
+  background-image: url("assets/1.png");
+}
+
+.welcome .photo3 {
+  background-image: url("assets/2.png");
+}
+
+.welcome .photo4 {
+  background-image: url("assets/3.png");
+}
+
+.welcome .photo2,
+.welcome .photo3,
+.welcome .photo4 {
+  background-size: cover;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome .photo2 .first-line,
+.welcome .photo3 .first-line,
+.welcome .photo4 .first-line {
+  font-family: "Libre Baskerville", serif;
+}
+
+.welcome .photo2 .second-line,
+.welcome .photo3 .second-line,
+.welcome .photo4 .second-line {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.welcome .photo2 .discover,
+.welcome .photo3 .discover,
+.welcome .photo4 .discover {
+  margin-top: 40px;
+  text-transform: uppercase;
 }
 
 .menu-list {
   display: flex;
-  flex-wrap: wrap;
 }
 
 h1 {
