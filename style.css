@@ -36,6 +36,10 @@ body {
   letter-spacing: 2px;
 }
 
+.top-header .social-icons li {
+  letter-spacing: 20px;
+}
+
 .bottom-header {
   background-image: url("assets/wedgwood-logo.png");
   display: flex;
