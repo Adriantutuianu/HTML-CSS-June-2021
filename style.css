@@ -78,10 +78,16 @@ body {
   left: 10px;
 }
 
-.photo2 {
+.photo2,
+.photo3,
+.photo4 {
   background-image: url("assets/1.png");
   background-size: cover;
   min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .photo2 .first-line {
@@ -90,6 +96,11 @@ body {
 
 .photo2 .second-line {
   letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.photo2 .discover {
+  margin-top: 80px;
   text-transform: uppercase;
 }
 
