@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 50px;
   background-color: #99c8f2;
   color: white;
   text-transform: uppercase;
@@ -42,7 +42,11 @@ body {
 
 .bottom-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 80px;
+  text-transform: uppercase;
+  padding: 0 50px;
 }
 
 .bottom-header .logo {
@@ -123,6 +127,7 @@ body {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 0 50px;
   color: white;
 }
 
