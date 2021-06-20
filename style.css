@@ -150,6 +150,24 @@ h1 {
 
 .menu .category {
   display: flex;
+  flex-direction: row;
+  padding: 30px 50px;
+}
+
+.menu .category .item1 {
+  background-image: url(assets/5.png);
+}
+
+.menu .category .item2 {
+  background-image: url(assets/6.png);
+}
+
+.menu .category .item3 {
+  background-image: url(assets/7.png);
+}
+
+.menu .category .item4 {
+  background-image: url(assets/8.png);
 }
 
 .footer {
