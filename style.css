@@ -148,6 +148,10 @@ h1 {
   padding: 50px 0 15px 0;
 }
 
+.menu .category {
+  display: flex;
+}
+
 .footer {
   background-color: #99c8f2;
   display: grid;
