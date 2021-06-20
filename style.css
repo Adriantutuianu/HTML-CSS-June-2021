@@ -15,13 +15,14 @@ body {
 .top-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 0 20px;
-  background-color: dodgerblue;
+  background-color: #99c8f2;
   color: white;
   text-transform: uppercase;
   height: 30px;
-  align-items: center;
+
   font-size: 13px;
 }
 
@@ -31,6 +32,8 @@ body {
 
 .top-header .links li {
   list-style-type: none;
+  margin-right: 15px;
+  letter-spacing: 2px;
 }
 
 .bottom-header {
@@ -124,10 +127,10 @@ body {
 
 h1 {
   font-family: "Libre Baskerville", serif;
-  color: dodgerblue;
+  color: #99c8f2;
 }
 
 .footer {
-  background-color: dodgerblue;
+  background-color: #99c8f2;
   display: grid;
 }
