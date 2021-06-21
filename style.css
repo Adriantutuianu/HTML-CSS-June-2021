@@ -256,3 +256,10 @@ h1:after {
   display: flex;
   height: 600px;
 }
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 0 70px;
+}
