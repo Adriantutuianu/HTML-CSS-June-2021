@@ -161,18 +161,23 @@ h1:after {
 }
 
 .menu .category .images {
-  background-image: url(assets/5.png);
-  background-image: url(assets/6.png);
-  background-image: url(assets/7.png);
-  background-image: url(assets/8.png);
+  background-image: url("assets/5.png");
+  background-image: url("assets/6.png");
+  background-image: url("assets/7.png");
+  background-image: url("assets/8.png");
 }
+
+.menu .category .images {
+  display: flex;
+  height: 400px;
+  width: auto;
+}
+
 .menu .category {
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
   text-align: center;
-  height: 300px;
-  padding: 30px 50px;
+  padding: 50px;
 }
 
 .menu .category .item1 h3,
@@ -199,6 +204,10 @@ h1:after {
   font-family: "Libre Baskerville", serif;
   text-transform: uppercase;
   color: #99c8f2;
+}
+
+.contact {
+  background-image: url("assets/9.png");
 }
 
 .footer {
