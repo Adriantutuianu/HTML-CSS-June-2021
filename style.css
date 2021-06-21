@@ -141,36 +141,38 @@ body {
   text-transform: uppercase;
 }
 
-h1 {
+.menu h1 {
   font-family: "Libre Baskerville", serif;
   color: #99c8f2;
   text-align: center;
   padding: 50px 0 15px 0;
 }
 
+.menu h1:before,
+h1:after {
+  content: "--------";
+}
+
+.menu h1:before {
+  margin-right: 20px;
+}
+.menu h1:after {
+  margin-left: 20px;
+}
+
+.menu .category .images {
+  background-image: url(assets/5.png);
+  background-image: url(assets/6.png);
+  background-image: url(assets/7.png);
+  background-image: url(assets/8.png);
+}
 .menu .category {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: stretch;
+  text-align: center;
   height: 300px;
   padding: 30px 50px;
-  text-align: center;
-}
-
-.menu .category .item1 {
-  background-image: url(assets/5.png);
-}
-
-.menu .category .item2 {
-  background-image: url(assets/6.png);
-}
-
-.menu .category .item3 {
-  background-image: url(assets/7.png);
-}
-
-.menu .category .item4 {
-  background-image: url(assets/8.png);
 }
 
 .menu .category .item1 h3,
@@ -179,7 +181,7 @@ h1 {
 .menu .category .item4 h3 {
   text-transform: uppercase;
   color: #99c8f2;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 
 .menu .category .item1 p,
@@ -187,6 +189,7 @@ h1 {
 .menu .category .item3 p,
 .menu .category .item4 p {
   font-family: "Libre Baskerville", serif;
+  padding: 50px;
 }
 
 .menu .category .item1 a,
