@@ -259,7 +259,7 @@ h1:after {
 
 .footer-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-transform: uppercase;
-  padding: 0 70px;
+  color: #99c8f2;
 }
