@@ -207,6 +207,7 @@ h1:after {
 
 .contact {
   background-image: url("assets/10.png");
+  color: #99c8f2;
 }
 
 .contact {
@@ -217,8 +218,7 @@ h1:after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  padding: 0 50px;
+  height: 50px;
   font-size: 13px;
   background-color: white;
   height: auto;
@@ -230,12 +230,17 @@ h1:after {
 
 .contact .text .question li {
   list-style-type: none;
-  margin-right: 15px;
+  margin-right: 45px;
   letter-spacing: 2px;
 }
 
-.contact .text .question .font {
+.contact .text .question .font,
+.contact .text .question .font3 {
   font-family: "Libre Baskerville", serif;
+}
+
+.contact .text .question .font2 {
+  text-transform: uppercase;
 }
 
 .contact .text .icons {
@@ -243,6 +248,11 @@ h1:after {
 }
 
 .footer {
-  background-color: #99c8f2;
   display: grid;
+}
+
+.footer-top {
+  background-color: #99c8f2;
+  display: flex;
+  height: 600px;
 }
