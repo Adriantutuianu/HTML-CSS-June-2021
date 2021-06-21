@@ -252,9 +252,9 @@ h1:after {
 }
 
 .footer-top {
-  background-color: #99c8f2;
   display: flex;
-  height: 600px;
+  list-style-type: none;
+  background-color: #99c8f2;
 }
 
 .footer-bottom {
