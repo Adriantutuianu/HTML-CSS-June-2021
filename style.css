@@ -278,7 +278,9 @@ min-height: 500px;
   background-image: url("assets/15.png");
 }
 
-
+.gallery .image {
+  background-size: cover;
+}
 
 .footer {
   display: grid;
