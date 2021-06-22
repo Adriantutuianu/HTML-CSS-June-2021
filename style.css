@@ -281,6 +281,20 @@ h1:after {
   background-size: cover;
 }
 
+.gallery .image-1 .range {
+  font-family: "Libre Baskerville", serif;
+}
+
+.gallery .image-1 .jasper {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.gallery .image-1 a {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 20px;
+}
 .footer {
   display: grid;
 }
@@ -289,6 +303,7 @@ h1:after {
   display: flex;
   list-style-type: none;
   background-color: #99c8f2;
+  color: white;
 }
 
 .footer-bottom {
