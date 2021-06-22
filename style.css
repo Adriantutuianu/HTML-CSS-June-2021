@@ -298,3 +298,7 @@ min-height: 500px;
   text-transform: uppercase;
   color: #99c8f2;
 }
+
+.footer-bottom .left-side {
+  display: flex;
+}
