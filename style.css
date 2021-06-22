@@ -247,6 +247,39 @@ h1:after {
   letter-spacing: 5px;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 50px 80px;
+  width: 100%;
+min-height: 500px;
+
+}
+
+.gallery .image-1 {
+  background-image: url("assets/11.png");
+  grid-row: 1 / span 2;
+}
+
+.gallery .image-2 {
+  background-image: url("assets/12.png");
+}
+
+.gallery .image-3 {
+  background-image: url("assets/13.png");
+}
+
+.gallery .image-4 {
+  background-image: url("assets/14.png");
+}
+
+.gallery .image-5 {
+  background-image: url("assets/15.png");
+}
+
+
+
 .footer {
   display: grid;
 }
