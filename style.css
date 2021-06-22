@@ -300,7 +300,8 @@ h1:after {
 }
 
 .footer-top {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   list-style-type: none;
   background-color: #99c8f2;
   color: white;
