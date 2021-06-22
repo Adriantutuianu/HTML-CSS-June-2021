@@ -249,12 +249,11 @@ h1:after {
 
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 50px 80px;
   width: 100%;
-min-height: 500px;
-
+  min-height: 500px;
 }
 
 .gallery .image-1 {
@@ -308,6 +307,6 @@ min-height: 500px;
   margin-right: 10px;
 }
 
-.footer-bottom .right-side  {
-  color: #47B9DD;
+.footer-bottom .right-side {
+  color: #47b9dd;
 }
