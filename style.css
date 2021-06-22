@@ -294,11 +294,17 @@ min-height: 500px;
 
 .footer-bottom {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-transform: uppercase;
   color: #99c8f2;
+  padding: 0 50px;
 }
 
 .footer-bottom .left-side {
   display: flex;
 }
+
+.footer-bottom .left-side i {
+  margin-right: 10px;
+}
+
