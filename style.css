@@ -220,11 +220,12 @@ h1:after {
 .contact .text {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 50%;
   font-size: 13px;
   background-color: white;
-  height: auto;
+  height: 40px;
 }
 
 .contact .text .question {
