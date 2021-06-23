@@ -216,9 +216,7 @@ h1:after {
 
 .contact .text {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
+  justify-content: center;
   font-size: 13px;
   background-color: white;
   height: auto;
@@ -303,7 +301,6 @@ h1:after {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-content: center;
-  /* list-style-type: none; */
   background-color: #99c8f2;
   color: white;
   height: 400px;
@@ -316,7 +313,9 @@ h1:after {
 
 .footer .footer-top .about-us {
   display: flex;
+  justify-content: center;
   list-style-type: none;
+  margin-left: 20px;
 }
 
 .footer .footer-bottom {
