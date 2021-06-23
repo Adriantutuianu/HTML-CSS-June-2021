@@ -212,12 +212,16 @@ h1:after {
 
 .contact {
   background-size: cover;
-  min-height: 300px;
+  min-height: 200px;
+  position: relative;
+  height: 300px;
 }
 
 .contact .text {
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 50%;
   font-size: 13px;
   background-color: white;
   height: auto;
