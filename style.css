@@ -263,6 +263,8 @@ h1:after {
 .gallery .image-1 {
   background-image: url("assets/11.png");
   grid-row: 1 / span 2;
+  display: flex;
+  justify-items: right;
 }
 
 .gallery .image-2 {
