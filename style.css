@@ -211,7 +211,8 @@ h1:after {
 }
 
 .contact {
-  height: 300px;
+  background-size: cover;
+  min-height: 300px;
 }
 
 .contact .text {
