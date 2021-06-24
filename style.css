@@ -168,7 +168,7 @@ h1:after {
 
 .menu .category .images {
   display: flex;
-  height: 400px;
+  height: 300px;
   width: auto;
 }
 
@@ -177,6 +177,7 @@ h1:after {
   flex-direction: row;
   text-align: center;
   padding: 50px;
+  height: 400px;
 }
 
 .menu .category .item1 h3,
@@ -265,6 +266,7 @@ h1:after {
   grid-row: 1 / span 2;
   display: flex;
   justify-items: right;
+  text-align: right;
 }
 
 .gallery .image-2 {
@@ -302,7 +304,7 @@ h1:after {
   padding: 20px;
 }
 .footer {
-  display: grid;
+  display: flex;
 }
 
 .footer-top {
@@ -322,7 +324,7 @@ h1:after {
 .footer .footer-top .about-us {
   display: flex;
   justify-content: center;
-  list-style-type: none;
+  list-style: none;
   margin-left: 20px;
 }
 
