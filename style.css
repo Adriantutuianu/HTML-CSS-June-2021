@@ -7,9 +7,17 @@
 
 body {
   width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  font-family: "Nunito", sans-serif;
+}
+
+header {
+  background-color: #99c8f2;
 }
 
 .top-header {
@@ -18,7 +26,6 @@ body {
   align-items: center;
   width: 100%;
   padding: 0 50px;
-  background-color: #99c8f2;
   color: white;
   text-transform: uppercase;
   height: 30px;
@@ -43,6 +50,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   height: 80px;
   text-transform: uppercase;
   padding: 0 50px;
@@ -209,9 +217,6 @@ h1:after {
 .contact {
   background-image: url("assets/10.png");
   color: #99c8f2;
-}
-
-.contact {
   background-size: cover;
   min-height: 200px;
   position: relative;
@@ -220,8 +225,8 @@ h1:after {
 
 .contact .text {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   position: absolute;
   bottom: 50%;
   font-size: 13px;
@@ -324,8 +329,12 @@ h1:after {
 .footer .footer-top .about-us {
   display: flex;
   justify-content: center;
-  list-style: none;
+  list-style-type: none;
   margin-left: 20px;
+}
+
+.inspiration {
+  list-style-type: none;
 }
 
 .footer .footer-bottom {
