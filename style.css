@@ -282,6 +282,9 @@ h1:after {
 }
 
 .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("assets/10.png");
   color: var(--primary-color);
   background-size: cover;
@@ -292,8 +295,9 @@ h1:after {
 
 .contact .text {
   display: flex;
-  position: absolute;
-  bottom: 50%;
+  align-items: center;
+  padding: 0 30px;
+
   font-size: 13px;
   background-color: white;
   height: 40px;
