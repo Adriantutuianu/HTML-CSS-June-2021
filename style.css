@@ -234,52 +234,6 @@ h1:after {
   background-color: var(--primary-color);
   margin: 0 15px;
 }
-/* 
-.collections-section .category .image1 {
-  background-image: url("assets/5.png");
-  background-image: url("assets/6.png");
-  background-image: url("assets/7.png");
-  background-image: url("assets/8.png");
-}
-
-.collections-section .category .images {
-  display: flex;
-  height: 300px;
-  width: auto;
-}
-
-.collections-section .category {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  height: 400px;
-}
-
-.collections-section .category .item1 h3,
-.collections-section .category .item2 h3,
-.collections-section .category .item3 h3,
-.collections-section .category .item4 h3 {
-  text-transform: uppercase;
-  color: var(--primary-color);
-  letter-spacing: 5px;
-}
-
-.collections-section .category .item1 p,
-.collections-section .category .item2 p,
-.collections-section .category .item3 p,
-.collections-section .category .item4 p {
-  font-family: var(--secondary-font);
-  padding: 50px;
-}
-
-.collections-section .category .item1 a,
-.collections-section .category .item2 a,
-.collections-section .category .item3 a,
-.collections-section .category .item4 a {
-  font-family: var(--secondary-font);
-  text-transform: uppercase;
-  color: var(--primary-color);
-} */
 
 .cards {
   display: flex;
@@ -302,6 +256,15 @@ h1:after {
 
 .cards .card-1 .image {
   background-image: url("assets/5.png");
+}
+.cards .card-2 .image {
+  background-image: url("assets/6.png");
+}
+.cards .card-3 .image {
+  background-image: url("assets/7.png");
+}
+.cards .card-4 .image {
+  background-image: url("assets/8.png");
 }
 
 .contact {
