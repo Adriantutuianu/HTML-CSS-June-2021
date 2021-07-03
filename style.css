@@ -291,6 +291,10 @@ h1:after {
   width: 100%;
   list-style-type: none;
   background: red;
+  margin-right: 20px;
+}
+.cards .card:last-child {
+  margin: 0;
 }
 
 .contact {
@@ -304,8 +308,6 @@ h1:after {
 
 .contact .text {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   position: absolute;
   bottom: 50%;
   font-size: 13px;
