@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+/* css variables  */
+:root {
+  --content-size: 1200px;
+  --primary-color: #99c8f2;
+}
+
 body {
   width: 100%;
   font-family: "Nunito", sans-serif;
@@ -12,7 +18,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--content-size);
   margin: 0 auto;
 }
 
@@ -23,11 +29,11 @@ body {
 }
 
 .link:hover {
-  color: #99c8f2;
+  color: #var(--primary-color);
 }
 
 header {
-  background-color: #99c8f2;
+  background-color: var(--primary-color);
 }
 
 .top-header {
@@ -164,7 +170,7 @@ header {
 
 .menu h1 {
   font-family: "Libre Baskerville", serif;
-  color: #99c8f2;
+  color: var(--primary-color);
   text-align: center;
   padding: 50px 0 15px 0;
 }
@@ -207,7 +213,7 @@ h1:after {
 .menu .category .item3 h3,
 .menu .category .item4 h3 {
   text-transform: uppercase;
-  color: #99c8f2;
+  color: var(--primary-color);
   letter-spacing: 5px;
 }
 
@@ -225,12 +231,12 @@ h1:after {
 .menu .category .item4 a {
   font-family: "Libre Baskerville", serif;
   text-transform: uppercase;
-  color: #99c8f2;
+  color: var(--primary-color);
 }
 
 .contact {
   background-image: url("assets/10.png");
-  color: #99c8f2;
+  color: var(--primary-color);
   background-size: cover;
   min-height: 200px;
   position: relative;
@@ -330,7 +336,7 @@ h1:after {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-content: center;
-  background-color: #99c8f2;
+  background-color: var(--primary-color);
   color: white;
   height: 400px;
 }
@@ -355,7 +361,7 @@ h1:after {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  color: #99c8f2;
+  color: var(--primary-color);
   padding: 15px 50px;
 }
 
@@ -368,5 +374,5 @@ h1:after {
 }
 
 .footer-bottom .right-side {
-  color: #47b9dd;
+  color: var(--primary-color);
 }
