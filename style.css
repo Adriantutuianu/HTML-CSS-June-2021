@@ -290,11 +290,18 @@ h1:after {
   height: 400px;
   width: 100%;
   list-style-type: none;
-  background: red;
   margin-right: 20px;
 }
 .cards .card:last-child {
   margin: 0;
+}
+
+.cards .card .image {
+  height: 200px;
+}
+
+.cards .card-1 .image {
+  background-image: url("assets/5.png");
 }
 
 .contact {
