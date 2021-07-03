@@ -79,6 +79,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 .bottom-header-content .logo {
   background-image: url("assets/wedgwood-logo.png");
   background-size: cover;
