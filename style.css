@@ -29,7 +29,7 @@ body {
 }
 
 .link:hover {
-  color: #var(--primary-color);
+  color: var(--primary-color);
 }
 
 header {
@@ -68,6 +68,7 @@ header {
 .bottom-header {
   background-color: white;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .bottom-header-content {
@@ -87,7 +88,6 @@ header {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 0 50px;
   color: white;
 }
 
@@ -154,6 +154,7 @@ header {
 .welcome .photo4 .discover {
   margin-top: 40px;
   text-transform: uppercase;
+  color: white;
 }
 
 .menu .menu-list {
