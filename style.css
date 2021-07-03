@@ -314,6 +314,12 @@ h1:after {
 
 .contact .text-wrap .question .text {
   font-family: var(--secondary-font);
+  font-size: 16px;
+}
+.contact .text-wrap .question .text span {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 .contact .text-wrap .question .text2 {
@@ -323,6 +329,7 @@ h1:after {
 .contact .text-wrap .follow-wrap .follow-text {
   font-family: var(--secondary-font);
   margin-right: 15px;
+  font-size: 16px;
 }
 
 .contact .text-wrap .follow-wrap {
