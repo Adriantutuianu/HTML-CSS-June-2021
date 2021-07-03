@@ -16,6 +16,16 @@ body {
   margin: 0 auto;
 }
 
+.link {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease-in;
+}
+
+.link:hover {
+  color: #99c8f2;
+}
+
 header {
   background-color: #99c8f2;
 }
