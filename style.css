@@ -196,51 +196,54 @@ header {
   color: var(--primary-color);
 }
 
-.menu .menu-list {
+.collections-section .menu-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
-.menu .menu-list .menu-item {
+.collections-section .menu-list .menu-item {
   display: list-item;
   padding: 5px 10px;
   margin: 0 3px;
   text-transform: uppercase;
 }
 
-.menu h1 {
+.collections-section h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--secondary-font);
+  font-weight: normal;
   color: var(--primary-color);
   text-align: center;
   padding: 50px 0 15px 0;
+  position: relative;
+  font-size: 24px;
 }
 
-.menu h1:before,
+.collections-section h1:before,
 h1:after {
-  content: "--------";
+  content: "";
+  height: 2px;
+  width: 50px;
+  background-color: var(--primary-color);
+  margin: 0 15px;
 }
 
-.menu h1:before {
-  margin-right: 20px;
-}
-.menu h1:after {
-  margin-left: 20px;
-}
-
-.menu .category .images {
+.collections-section .category .images {
   background-image: url("assets/5.png");
   background-image: url("assets/6.png");
   background-image: url("assets/7.png");
   background-image: url("assets/8.png");
 }
 
-.menu .category .images {
+.collections-section .category .images {
   display: flex;
   height: 300px;
   width: auto;
 }
 
-.menu .category {
+.collections-section .category {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -248,27 +251,27 @@ h1:after {
   height: 400px;
 }
 
-.menu .category .item1 h3,
-.menu .category .item2 h3,
-.menu .category .item3 h3,
-.menu .category .item4 h3 {
+.collections-section .category .item1 h3,
+.collections-section .category .item2 h3,
+.collections-section .category .item3 h3,
+.collections-section .category .item4 h3 {
   text-transform: uppercase;
   color: var(--primary-color);
   letter-spacing: 5px;
 }
 
-.menu .category .item1 p,
-.menu .category .item2 p,
-.menu .category .item3 p,
-.menu .category .item4 p {
+.collections-section .category .item1 p,
+.collections-section .category .item2 p,
+.collections-section .category .item3 p,
+.collections-section .category .item4 p {
   font-family: var(--secondary-font);
   padding: 50px;
 }
 
-.menu .category .item1 a,
-.menu .category .item2 a,
-.menu .category .item3 a,
-.menu .category .item4 a {
+.collections-section .category .item1 a,
+.collections-section .category .item2 a,
+.collections-section .category .item3 a,
+.collections-section .category .item4 a {
   font-family: var(--secondary-font);
   text-transform: uppercase;
   color: var(--primary-color);
