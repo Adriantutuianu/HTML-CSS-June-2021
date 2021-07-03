@@ -196,10 +196,16 @@ header {
   color: var(--primary-color);
 }
 
+.collections-section {
+  padding: 0 50px;
+  margin: 50px 0;
+}
+
 .collections-section .menu-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  padding: 15px 0 30px 0;
 }
 .collections-section .menu-list .menu-item {
   display: list-item;
@@ -216,7 +222,6 @@ header {
   font-weight: normal;
   color: var(--primary-color);
   text-align: center;
-  padding: 50px 0 15px 0;
   position: relative;
   font-size: 24px;
 }
@@ -229,8 +234,8 @@ h1:after {
   background-color: var(--primary-color);
   margin: 0 15px;
 }
-
-.collections-section .category .images {
+/* 
+.collections-section .category .image1 {
   background-image: url("assets/5.png");
   background-image: url("assets/6.png");
   background-image: url("assets/7.png");
@@ -247,7 +252,6 @@ h1:after {
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding: 50px;
   height: 400px;
 }
 
@@ -275,6 +279,18 @@ h1:after {
   font-family: var(--secondary-font);
   text-transform: uppercase;
   color: var(--primary-color);
+} */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cards .card {
+  height: 400px;
+  width: 100%;
+  list-style-type: none;
+  background: red;
 }
 
 .contact {
