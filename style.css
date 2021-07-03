@@ -321,6 +321,9 @@ h1:after {
   text-transform: uppercase;
   font-size: 12px;
 }
+.contact .text-wrap .question .text span a {
+  color: var(--primary-color);
+}
 
 .contact .text-wrap .question .text2 {
   text-transform: uppercase;
