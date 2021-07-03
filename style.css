@@ -91,6 +91,14 @@ header {
   color: white;
 }
 
+.welcome .photo {
+  position: relative;
+}
+.welcome .photo:hover .discover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .welcome .photo1 {
   background-image: url("assets/main.png");
   background-size: cover;
@@ -152,9 +160,12 @@ header {
 .welcome .photo2 .discover,
 .welcome .photo3 .discover,
 .welcome .photo4 .discover {
-  margin-top: 40px;
+  position: absolute;
+  bottom: 10px;
   text-transform: uppercase;
   color: white;
+  transform: translateY(100%);
+  opacity: 0;
 }
 
 .menu .menu-list {
