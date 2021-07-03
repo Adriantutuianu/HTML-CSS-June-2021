@@ -252,6 +252,8 @@ h1:after {
 
 .cards .card .image {
   height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cards .card-1 .image {
