@@ -25,7 +25,6 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 50px;
   color: white;
   text-transform: uppercase;
   height: 30px;
@@ -47,16 +46,18 @@ header {
 }
 
 .bottom-header {
+  background-color: white;
+  text-transform: uppercase;
+}
+
+.bottom-header-content {
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  height: 80px;
-  text-transform: uppercase;
   padding: 0 50px;
 }
-
-.bottom-header .logo {
+.bottom-header-content .logo {
   background-image: url("assets/wedgwood-logo.png");
   background-size: cover;
   width: 200px;
