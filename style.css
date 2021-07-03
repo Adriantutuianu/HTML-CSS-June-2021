@@ -9,11 +9,13 @@
 :root {
   --content-size: 1200px;
   --primary-color: #99c8f2;
+  --primary-font: "Nunito", sans-serif;
+  --secondary-font: "Libre Baskerville", serif;
 }
 
 body {
   width: 100%;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .content {
@@ -114,7 +116,7 @@ header {
   height: 500px;
 }
 .welcome .photo1 .first-line {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
   position: absolute;
   bottom: 30px;
   left: 10px;
@@ -132,7 +134,7 @@ header {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
   color: white;
   font-size: 16px;
 }
@@ -150,7 +152,7 @@ header {
 }
 
 .welcome .photo .first-line {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
 }
 
 .welcome .photo .second-line {
@@ -184,7 +186,7 @@ header {
 }
 
 .menu h1 {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
   color: var(--primary-color);
   text-align: center;
   padding: 50px 0 15px 0;
@@ -236,7 +238,7 @@ h1:after {
 .menu .category .item2 p,
 .menu .category .item3 p,
 .menu .category .item4 p {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
   padding: 50px;
 }
 
@@ -244,7 +246,7 @@ h1:after {
 .menu .category .item2 a,
 .menu .category .item3 a,
 .menu .category .item4 a {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
   text-transform: uppercase;
   color: var(--primary-color);
 }
@@ -281,7 +283,7 @@ h1:after {
 
 .contact .text .question .font,
 .contact .text .question .font3 {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
 }
 
 .contact .text .question .font2 {
@@ -330,7 +332,7 @@ h1:after {
 }
 
 .gallery .image-1 .range {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
 }
 
 .gallery .image-1 .jasper {
@@ -357,7 +359,7 @@ h1:after {
 }
 
 .footer-top h3 {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--secondary-font);
   padding: 30px;
 }
 
