@@ -285,15 +285,14 @@ h1:after {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 300px;
+  min-height: 200px;
   background-image: url("assets/10.png");
   color: var(--primary-color);
   background-size: cover;
-  min-height: 200px;
-  position: relative;
-  height: 300px;
 }
 
-.contact .text {
+.contact .text-wrap {
   display: flex;
   align-items: center;
   padding: 0 30px;
@@ -303,26 +302,34 @@ h1:after {
   height: 40px;
 }
 
-.contact .text .question {
+.contact .text-wrap .question {
   display: flex;
 }
 
-.contact .text .question li {
+.contact .text-wrap .question li {
   list-style-type: none;
   margin-right: 45px;
   letter-spacing: 2px;
 }
 
-.contact .text .question .font,
-.contact .text .question .font3 {
+.contact .text-wrap .question .text {
   font-family: var(--secondary-font);
 }
 
-.contact .text .question .font2 {
+.contact .text-wrap .question .text2 {
   text-transform: uppercase;
 }
 
-.contact .text .icons {
+.contact .text-wrap .follow-wrap .follow-text {
+  font-family: var(--secondary-font);
+  margin-right: 15px;
+}
+
+.contact .text-wrap .follow-wrap {
+  display: flex;
+}
+
+.contact .text-wrap .icons {
   letter-spacing: 5px;
 }
 
