@@ -413,6 +413,7 @@ h1:after {
 
 .gallery .image-1 .text-wrap .range {
   font-family: var(--secondary-font);
+  font-size: 14px;
 }
 
 .gallery .image-1 .text-wrap .jasper {
