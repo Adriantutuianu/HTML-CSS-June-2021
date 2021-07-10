@@ -467,6 +467,17 @@ footer .footer-top .section ul li {
   margin-bottom: 5px;
 }
 
+footer .footer-top .section ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in;
+}
+
+footer .footer-top .section ul li a:hover {
+  color: black;
+}
+
 footer .footer-top .section .title {
   margin-bottom: 25px;
   font-family: var(--secondary-font);
