@@ -501,6 +501,7 @@ footer .footer-top .section.subscribe .form-wrap {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 3px;
 }
 
 footer .footer-top .section.subscribe .form-wrap .form-input {
@@ -508,6 +509,17 @@ footer .footer-top .section.subscribe .form-wrap .form-input {
   border: none;
 }
 
+footer .footer-top .section.subscribe .form-wrap .submit-button {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  color: white;
+  font-weight: normal;
+  transition: 0.2s ease-in;
+}
+
+footer .footer-top .section.subscribe .form-wrap .submit-button:hover {
+  color: black;
+}
 footer .footer-bottom {
   display: flex;
   justify-content: space-between;
