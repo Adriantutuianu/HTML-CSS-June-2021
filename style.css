@@ -509,6 +509,10 @@ footer .footer-top .section.subscribe .form-wrap .form-input {
   border: none;
 }
 
+footer .footer-top .section.subscribe .form-wrap .form-input {
+  outline: none;
+}
+
 footer .footer-top .section.subscribe .form-wrap .submit-button {
   text-decoration: none;
   font-family: var(--secondary-font);
