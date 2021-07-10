@@ -289,8 +289,9 @@ h1:after {
   padding: 30px 0;
   text-transform: uppercase;
   color: var(--primary-color);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
+  letter-spacing: 4px;
 }
 
 .cards .card .card-content h3:after {
@@ -303,6 +304,8 @@ h1:after {
 
 .cards .card .card-content p {
   margin-bottom: 14px;
+  font-family: var(--secondary-font);
+  font-size: 12px;
 }
 
 .contact {
@@ -320,7 +323,6 @@ h1:after {
   display: flex;
   align-items: center;
   padding: 0 30px;
-
   font-size: 13px;
   background-color: white;
   height: 40px;
@@ -380,7 +382,7 @@ h1:after {
   background-image: url("assets/11.png");
   grid-row: 1 / span 2;
   display: flex;
-  justify-items: right;
+  flex-direction: column;
   text-align: right;
 }
 
@@ -404,19 +406,31 @@ h1:after {
   background-size: cover;
 }
 
-.gallery .image-1 .range {
+.gallery .image-1 .text-wrap {
+  margin: 20px 10px;
+  color: white;
+}
+
+.gallery .image-1 .text-wrap .range {
   font-family: var(--secondary-font);
 }
 
-.gallery .image-1 .jasper {
+.gallery .image-1 .text-wrap .jasper {
   text-transform: uppercase;
   letter-spacing: 3px;
+  margin-bottom: 10px;
 }
 
-.gallery .image-1 a {
+.gallery .image-1 .text-wrap a {
   text-transform: uppercase;
   font-size: 12px;
-  padding: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in;
+}
+
+.gallery .image-1 .text-wrap a:hover {
+  color: var(--primary-color);
 }
 .footer {
   display: flex;
