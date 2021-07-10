@@ -440,6 +440,7 @@ h1:after {
 .gallery .image-1 .text-wrap a:hover {
   color: var(--primary-color);
 }
+
 footer {
   display: flex;
   background-color: var(--primary-color);
@@ -453,8 +454,17 @@ footer {
   height: 400px;
 }
 
+footer .footer-top .section {
+  margin-right: 30px;
+}
+
+footer .footer-top .section:last-child {
+  margin-right: 0px;
+}
+
 footer .footer-top .section ul li {
   list-style-type: none;
+  margin-bottom: 5px;
 }
 
 footer .footer-top .section .title {
