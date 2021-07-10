@@ -488,11 +488,24 @@ footer .footer-top .section.subscribe h4 {
   font-weight: normal;
   margin-bottom: 10px;
 }
+
 footer .footer-top .section.subscribe .consent {
   font-size: 12px;
   margin-top: 10px;
   text-transform: uppercase;
   line-height: 20px;
+}
+
+footer .footer-top .section.subscribe .form-wrap {
+  border-bottom: 1px white solid;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+footer .footer-top .section.subscribe .form-wrap .form-input {
+  background-color: var(--primary-color);
+  border: none;
 }
 
 footer .footer-bottom {
