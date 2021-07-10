@@ -241,7 +241,7 @@ h1:after {
   width: 100%;
 }
 .cards .card {
-  height: 500px;
+  height: 400px;
   width: 100%;
   list-style-type: none;
   margin-right: 20px;
@@ -275,6 +275,7 @@ h1:after {
 .cards .card .card-content .link {
   text-transform: uppercase;
   color: var(--primary-color);
+  font-size: 14px;
 }
 .cards .card .card-content .link:hover {
   color: black;
@@ -298,6 +299,11 @@ h1:after {
   background-color: black;
   transform: translateY(14px);
 }
+
+.cards .card .card-content p {
+  margin-bottom: 14px;
+}
+
 .contact {
   display: flex;
   align-items: center;
