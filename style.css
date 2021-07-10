@@ -457,6 +457,12 @@ footer .footer-top .section ul li {
   list-style-type: none;
 }
 
+footer .footer-top .section .title {
+  margin-bottom: 25px;
+  font-family: var(--secondary-font);
+  font-weight: normal;
+}
+
 footer .footer-bottom {
   display: flex;
   justify-content: space-between;
