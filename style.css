@@ -342,11 +342,13 @@ h1:after {
   font-family: var(--secondary-font);
   font-size: 16px;
 }
+
 .contact .text-wrap .question .text span {
   font-family: var(--primary-font);
   text-transform: uppercase;
   font-size: 12px;
 }
+
 .contact .text-wrap .question .text span a {
   color: var(--primary-color);
 }
@@ -371,16 +373,22 @@ h1:after {
 
 .gallery {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr;
   padding: 50px 80px;
   width: 100%;
-  min-height: 500px;
+  height: 500px;
+}
+
+.gallery .image {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .gallery .image-1 {
   background-image: url("assets/11.png");
   grid-row: 1 / span 2;
+  grid-column: span 2;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -388,6 +396,7 @@ h1:after {
 
 .gallery .image-2 {
   background-image: url("assets/12.png");
+  grid-column: span 2;
 }
 
 .gallery .image-3 {
@@ -400,15 +409,13 @@ h1:after {
 
 .gallery .image-5 {
   background-image: url("assets/15.png");
-}
-
-.gallery .image {
-  background-size: cover;
+  grid-column: span 2;
 }
 
 .gallery .image-1 .text-wrap {
   margin: 20px 10px;
   color: white;
+  user-select: none;
 }
 
 .gallery .image-1 .text-wrap .range {
