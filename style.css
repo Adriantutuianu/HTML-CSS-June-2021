@@ -524,22 +524,22 @@ footer .footer-top .section.subscribe .form-wrap .submit-button {
 footer .footer-top .section.subscribe .form-wrap .submit-button:hover {
   color: black;
 }
-footer .footer-bottom {
+
+.credits .credits-content {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   text-transform: uppercase;
   color: var(--primary-color);
-  padding: 15px 50px;
+  padding: 15px 60px;
+  user-select: none;
 }
 
-.footer-bottom .left-side {
+.credits .credits-content .left-side {
   display: flex;
+  align-items: center;
 }
 
-.footer-bottom .left-side i {
+.credits .credits-content .left-side i {
   margin-right: 10px;
-}
-
-.footer-bottom .right-side {
-  color: var(--primary-color);
 }
