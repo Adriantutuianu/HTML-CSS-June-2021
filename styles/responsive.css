@@ -3,6 +3,13 @@
 }
 
 @media only screen and (max-width: 992px) {
+  header .bottom-header .content .bottom-header-content a:nth-child(2),
+  header .bottom-header .content .bottom-header-content a:nth-child(3),
+  header .bottom-header .content .bottom-header-content a:nth-child(5),
+  header .bottom-header .content .bottom-header-content a:nth-child(6),
+  header .bottom-header .content .bottom-header-content a:nth-child(7) {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
