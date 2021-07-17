@@ -22,6 +22,7 @@ body {
   width: 100%;
   max-width: var(--content-size);
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .link {
@@ -81,7 +82,7 @@ header {
 }
 
 .bottom-header-content .logo {
-  background-image: url("assets/wedgwood-logo.png");
+  background-image: url("../assets/wedgwood-logo.png");
   background-size: cover;
   width: 200px;
   height: 38px;
@@ -124,7 +125,7 @@ header {
   opacity: 0.7;
 }
 .welcome .photo1 {
-  background-image: url("assets/main.png");
+  background-image: url("../assets/main.png");
   background-size: cover;
   min-height: 200px;
   position: relative;
@@ -162,15 +163,15 @@ header {
 }
 
 .welcome .photo2 {
-  background-image: url("assets/1.png");
+  background-image: url("../assets/1.png");
 }
 
 .welcome .photo3 {
-  background-image: url("assets/2.png");
+  background-image: url("../assets/2.png");
 }
 
 .welcome .photo4 {
-  background-image: url("assets/3.png");
+  background-image: url("../assets/3.png");
 }
 
 .welcome .photo .first-line {
@@ -258,16 +259,16 @@ h1:after {
 }
 
 .cards .card-1 .image {
-  background-image: url("assets/5.png");
+  background-image: url("../assets/5.png");
 }
 .cards .card-2 .image {
-  background-image: url("assets/6.png");
+  background-image: url("../assets/6.png");
 }
 .cards .card-3 .image {
-  background-image: url("assets/7.png");
+  background-image: url("../assets/7.png");
 }
 .cards .card-4 .image {
-  background-image: url("assets/8.png");
+  background-image: url("../assets/8.png");
 }
 
 .cards .card .card-content {
@@ -314,7 +315,7 @@ h1:after {
   justify-content: center;
   height: 300px;
   min-height: 200px;
-  background-image: url("assets/10.png");
+  background-image: url("../assets/10.png");
   color: var(--primary-color);
   background-size: cover;
 }
@@ -386,7 +387,7 @@ h1:after {
 }
 
 .gallery .image-1 {
-  background-image: url("assets/11.png");
+  background-image: url("../assets/11.png");
   grid-row: 1 / span 2;
   grid-column: span 2;
   display: flex;
@@ -395,20 +396,20 @@ h1:after {
 }
 
 .gallery .image-2 {
-  background-image: url("assets/12.png");
+  background-image: url("../assets/12.png");
   grid-column: span 2;
 }
 
 .gallery .image-3 {
-  background-image: url("assets/13.png");
+  background-image: url("../assets/13.png");
 }
 
 .gallery .image-4 {
-  background-image: url("assets/14.png");
+  background-image: url("../assets/14.png");
 }
 
 .gallery .image-5 {
-  background-image: url("assets/15.png");
+  background-image: url("../assets/15.png");
   grid-column: span 2;
 }
 
