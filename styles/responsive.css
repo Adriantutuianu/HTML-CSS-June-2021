@@ -19,10 +19,10 @@
 
 @media only screen and (max-width: 992px) {
   header .bottom-header .content .bottom-header-content a:nth-child(2),
-  header .bottom-header .content .bottom-header-content a:nth-child(3),
-  header .bottom-header .content .bottom-header-content a:nth-child(5),
-  header .bottom-header .content .bottom-header-content a:nth-child(6),
-  header .bottom-header .content .bottom-header-content a:nth-child(7) {
+  a:nth-child(3),
+  a:nth-child(5),
+  a:nth-child(6),
+  a:nth-child(7) {
     display: none;
   }
 
@@ -43,8 +43,11 @@
   .contact .text-wrap .question .text2 {
     margin: 0;
   }
-}
 
+  .gallery {
+    padding: 50px 0;
+  }
+}
 @media only screen and (max-width: 768px) {
   .collections-section .menu-list {
     flex-wrap: wrap;
@@ -56,6 +59,15 @@
 
   .contact .text-wrap .question .text2 {
     margin: 10px 0;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gallery .image-3,
+  .image-4 {
+    display: none;
   }
 }
 
