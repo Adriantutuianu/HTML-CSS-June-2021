@@ -25,6 +25,24 @@
   header .bottom-header .content .bottom-header-content a:nth-child(7) {
     display: none;
   }
+
+  .contact .text-wrap {
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .contact .text-wrap .question {
+    justify-content: center;
+  }
+
+  .contact .text-wrap .question .text {
+    text-align: center;
+    margin: 0;
+  }
+
+  .contact .text-wrap .question .text2 {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -34,6 +52,10 @@
 
   .collections-section .cards {
     flex-wrap: wrap;
+  }
+
+  .contact .text-wrap .question .text2 {
+    margin: 10px 0;
   }
 }
 
