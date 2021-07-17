@@ -434,14 +434,14 @@ footer {
 
 .footer-top {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-content: center;
   color: white;
-  height: 400px;
+  min-height: 400px;
 }
 
 footer .footer-top .section {
-  margin-right: 30px;
+  margin: 40px 30px 40px 0;
 }
 
 footer .footer-top .section:last-child {
