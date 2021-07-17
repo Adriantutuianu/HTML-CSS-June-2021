@@ -26,4 +26,9 @@
     width: 100%;
     justify-content: center;
   }
+
+  header .bottom-header .content .bottom-header-content a:nth-child(4),
+  header .bottom-header .content .bottom-header-content a:nth-child(8) {
+    display: none;
+  }
 }
