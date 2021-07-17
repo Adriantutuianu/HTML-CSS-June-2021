@@ -1,5 +1,20 @@
 /* Responsive  */
 @media only screen and (max-width: 1200px) {
+  .contact .text-wrap {
+    flex-wrap: wrap;
+    height: unset;
+  }
+  .contact .text-wrap .question {
+    flex-wrap: wrap;
+  }
+
+  .contact .text-wrap .question .text {
+    width: 100%;
+  }
+
+  .contact .text-wrap .question .line {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) {
