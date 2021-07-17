@@ -60,6 +60,11 @@ header {
   letter-spacing: 2px;
 }
 
+.top-header .links li a {
+  text-decoration: none;
+  color: black;
+}
+
 .top-header .social-icons li {
   margin-right: 20px;
 }
@@ -544,3 +549,5 @@ footer .footer-top .section.subscribe .form-wrap .submit-button:hover {
 .credits .credits-content .left-side i {
   margin-right: 10px;
 }
+
+/* Responsive  */
