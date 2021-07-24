@@ -1,6 +1,6 @@
 # Homepage mockup - 2021
 
-![Preview Image](src/assets/homepage.png)
+![Preview Image](assets/homepage.png)
 
 ## Description
 
